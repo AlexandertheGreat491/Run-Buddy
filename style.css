@@ -72,7 +72,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-  background-image: url('../images/hero-bg.jpg');
+  background-image: url('https://github.com/AlexandertheGreat491/Run-Buddy/blob/e998c686f511abbed1b7725a5c4ac501b87a791b/hero-bg.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
