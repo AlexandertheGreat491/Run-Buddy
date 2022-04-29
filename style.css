@@ -55,6 +55,7 @@ header nav ul li a {
   header {
     padding-bottom: 0;
     justify-content: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   header h1 {
@@ -70,6 +71,7 @@ header nav ul li a {
 
   header nav ul li a {
     font-size: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   footer h2, footer div {
@@ -161,6 +163,7 @@ header nav ul li a {
   }
 }
 
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -210,6 +213,8 @@ section {
   color: #024e76;
   width: 40%;
   margin: 3.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
 }
 
 .hero-form h3 {
@@ -233,6 +238,7 @@ section {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .form-input {
@@ -243,6 +249,7 @@ section {
   color: #024e76;
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .hero-form label {
@@ -255,6 +262,7 @@ section {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .intro p {
@@ -442,6 +450,7 @@ section {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+  border-radius: 10px;
 }
 
 .contact-form button {
@@ -452,6 +461,7 @@ section {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 /* REACH OUT STYLES END */
