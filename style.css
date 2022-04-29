@@ -17,6 +17,13 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
 }
 
 header h1 {
@@ -56,6 +63,7 @@ header nav ul li a {
     padding-bottom: 0;
     justify-content: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
   }
 
   header h1 {
@@ -72,6 +80,13 @@ header nav ul li a {
   header nav ul li a {
     font-size: 20px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
   }
 
   footer h2, footer div {
@@ -250,6 +265,12 @@ section {
   width: 100%;
   margin-bottom: 15px;
   border-radius: 10px;
+  background-color: rgba(255,255,255,0.75);
+}
+
+.form-input:focus {
+  background-color: rgba(255,255,255,1);
+  outline: none;
 }
 
 .hero-form label {
@@ -265,6 +286,10 @@ section {
   border-radius: 10px;
 }
 
+.hero-form button:hover {
+  background-color: #39a6b2;
+}
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -274,6 +299,7 @@ section {
   text-align: center;
 }
 
+
 .steps {
   background: #fce138;
 }
@@ -282,11 +308,19 @@ section {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #39a6b2;
+}
+
+.step:nth-child(even) {
+  border-bottom: 1px solid #39a6b2;
+}
+
+.step:last-child {
+  border-bottom: none;
 }
 
 .step h3 {
@@ -451,6 +485,7 @@ section {
   margin-bottom: 15px;
   margin-top: 5px;
   border-radius: 10px;
+  background-color: rgba(255,255,255,0.75);
 }
 
 .contact-form button {
@@ -462,6 +497,11 @@ section {
   padding: 15px 0;
   font-size: 16px;
   border-radius: 10px;
+}
+
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
 }
 
 /* REACH OUT STYLES END */
