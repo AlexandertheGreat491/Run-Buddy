@@ -49,6 +49,25 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+/*Media query for smaller disktop screens and smaller*/
+
+@media screen and (max-width: 980px) {
+  
+  
+}
+
+/*Media query for tablets and smaller*/
+
+@media screen and (max-width: 768px) {
+  
+}
+
+/*Media query for mobile phones and smaller*/
+
+@media screen and (max-width: 575px) {
+  
+}
+
 footer {
   display: flex;
   justify-content: space-between;
